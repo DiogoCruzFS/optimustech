@@ -1,0 +1,16 @@
+@import url("../styles/header.css");
+
+:root {
+    --cor-principal: #3A404E;
+    --cor-segundaria: #667085;
+    --cor-tercerizada: #FFFFFF;
+    --cor-quarta: #8E2424;
+
+    --fonte-principal: "inter";
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background: var(--cor-tercerizada);
+    font-weight: 400;
+}
