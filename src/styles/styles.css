@@ -1,6 +1,6 @@
 :root {
     --text-color: #667085;
-    --text-color-principal: #8E2424;
+    --main-color: #8E2424;
   }
   
   * {
@@ -54,7 +54,7 @@
   }
 
   .cabecalho__sobre {
-    color: var(--text-color-principal);
+    color: var(--main-color);
     font-weight: 600;
     font-size: 1rem;
   }
