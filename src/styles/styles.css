@@ -1,6 +1,8 @@
 :root {
     --text-color: #667085;
-    --main-color: #8E2424;
+    --header-color: #8E2424;
+    --cor-titulo: #101828;
+
   }
   
   * {
@@ -54,17 +56,49 @@
   }
 
   .cabecalho__sobre {
-    color: var(--main-color);
+    color: var(--header-color);
     font-weight: 600;
     font-size: 1rem;
   }
 
   .cabecalho__titulo {
     font-size: 3em;
+    color: var(--cor-titulo);
   }
 
   .cabecalho__texto {
     font-size: 1.25rem;
     text-align: center;
     margin: 0.5em 10em;
+    color: var(--text-color);
+    font-weight: 400;
   }
+
+  .metricas-container {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    margin: 0 0 6em 15em;
+  }
+
+  div {
+    margin-right: 2em;
+  }
+
+  .metricas-container__numeros {
+    color: var(--header-color);
+    font-size: 3.75rem;
+    font-weight: 600;
+  }
+
+  .metricas-container__titulo {
+    color: var(--cor-titulo);
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  .metricas-container__texto {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
